@@ -133,9 +133,10 @@
   list-style: none;
 }
 
-.recipes__videos-video {
+.recipes__iframe {
   height: 273px;
   width: 480px;
+  border: none;
 }
 
 .recipes__video-caption {
