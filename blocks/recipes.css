@@ -3,6 +3,7 @@
   background-color: #0a2750;
   background-image: url("../images/background_recipes.svg");
   background-size: cover;
+  background-position: center;
   padding: 100px 80px 215px;
 }
 
@@ -24,9 +25,11 @@
 }
 
 .recipes__videos {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 40px;
   list-style: none;
 }
 
@@ -37,6 +40,8 @@
 }
 
 .recipes__video-caption {
+  margin: 0;
+  padding: 24px 0 0;
   display: flex;
   justify-content: space-between;
   font-family: "Inter", Arial, sans-serif;
